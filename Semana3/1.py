@@ -5,9 +5,9 @@ class Dias_a_segundos():
     #Descripción:definimos cuantos dias a conertir después el bucle for para la formula.
         
    def dias(self):
-       self.total_de_dias = int(input(":"))
+       self.total_de_dias = int(input("¿Cuantos dias a convertir:"))
        for formula in range(self.total_de_dias):
-           ingresar = int(input("¿Cuantos dias a convertir: ".format(formula+1)<))
+           ingresar = int(input("Dia: ".format(formula+1)))
            convertir = ingresar*86400
            print("Esto equivale a segundos{}". format(convertir))
 objeto = Dias_a_segundos()
